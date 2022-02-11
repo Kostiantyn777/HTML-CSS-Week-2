@@ -46,6 +46,8 @@ nav ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-position: center;
+  background-size: cover;
 }
 
 .full-width-section a {
@@ -60,11 +62,10 @@ nav ul {
 }
 .iphone-13-pro {
   background-image: url("https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_medium.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .iphone-13 {
   background-image: url("https://www.apple.com/v/home/aj/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_medium.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
+}
+.valentine-day {
+  background-image: url("https://www.apple.com/v/home/aj/images/heroes/valentines-day-last-chance/hero_vday22__bt5gpd2vjafm_medium.jpg");
 }
