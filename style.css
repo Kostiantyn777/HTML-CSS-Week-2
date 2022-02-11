@@ -69,3 +69,35 @@ nav ul {
 .valentine-day {
   background-image: url("https://www.apple.com/v/home/aj/images/heroes/valentines-day-last-chance/hero_vday22__bt5gpd2vjafm_medium.jpg");
 }
+
+.multi {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.multi article {
+  height: 528px;
+  width: 45%;
+  margin-bottom: 20px;
+  background-position: center;
+  background-size: cover;
+}
+.watch {
+  background-image: url("https://www.apple.com/v/home/aj/images/promos/watch-series-7/tile_watch__e9n11b6m6yq2_medium.jpg");
+}
+.shot {
+  background-image: url("https://www.apple.com/v/home/aj/images/promos/shot-on-iphone/tile_soip__f0c6lef982em_medium.jpg");
+}
+.heart {
+  background-image: url("https://www.apple.com/v/home/aj/images/promos/watch-heart-month/promo_watch_heart__dlf8uc5h0kae_medium.jpg");
+}
+.watch-black {
+  background-image: url("https://www.apple.com/v/home/aj/images/promos/watch-black-unity/promo_watch__fo7j0tnywi2q_medium.jpg");
+}
+.apple-card {
+  background-image: url("https://www.apple.com/v/home/aj/images/promos/apple-card/tile__cauwwcyyn9hy_medium.jpg");
+}
+.tv {
+  background-image: url("https://www.apple.com/v/home/aj/images/promos/tv-plus-the-sky-is-everywhere/promo_sky__fu99g2ymabiy_medium.jpg");
+}
