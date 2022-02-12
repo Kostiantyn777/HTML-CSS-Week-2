@@ -70,6 +70,7 @@ nav ul {
   background-image: url("https://www.apple.com/v/home/aj/images/heroes/valentines-day-last-chance/hero_vday22__bt5gpd2vjafm_medium.jpg");
 }
 
+/*Multi Styles*/
 .multi {
   display: flex;
   flex-wrap: wrap;
@@ -100,4 +101,49 @@ nav ul {
 }
 .tv {
   background-image: url("https://www.apple.com/v/home/aj/images/promos/tv-plus-the-sky-is-everywhere/promo_sky__fu99g2ymabiy_medium.jpg");
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 475px) {
+  nav ul {
+    flex-direction: column;
+  }
+  .multi {
+    flex-direction: column;
+  }
+  .multi article {
+    width: 100%;
+  }
+  .full-width-section {
+    background-size: cover;
+  }
+  .iphone-13-pro {
+    background-image: url("https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_small_2x.jpg");
+  }
+  .iphone-13 {
+    background-image: url("https://www.apple.com/v/home/aj/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_small_2x.jpg");
+  }
+  .valentine-day {
+    background-image: url("https://www.apple.com/v/home/aj/images/heroes/valentines-day-last-chance/hero_vday22__bt5gpd2vjafm_small_2x.jpg");
+  }
+  
+  .watch {
+    background-image: url("https://www.apple.com/v/home/aj/images/promos/watch-series-7/tile_watch__e9n11b6m6yq2_small_2x.jpg");
+  }
+  .shot {
+    background-image: url("https://www.apple.com/v/home/aj/images/promos/shot-on-iphone/tile_soip__f0c6lef982em_small_2x.jpg");
+  }
+  .heart {
+    background-image: url("https://www.apple.com/v/home/aj/images/promos/watch-heart-month/promo_watch_heart__dlf8uc5h0kae_small_2x.jpg");
+  }
+  .watch-black {
+    background-image: url("https://www.apple.com/v/home/aj/images/promos/watch-black-unity/promo_watch__fo7j0tnywi2q_small_2x.jpg");
+  }
+  .apple-card {
+    background-image: url("https://www.apple.com/v/home/aj/images/promos/apple-card/tile__cauwwcyyn9hy_small_2x.jpg");
+  }
+  .tv {
+    background-image: url("https://www.apple.com/v/home/aj/images/promos/tv-plus-the-sky-is-everywhere/promo_sky__fu99g2ymabiy_small_2x.jpg");
+  }
 }
