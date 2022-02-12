@@ -12,6 +12,7 @@ header {
 }
 a {
   text-decoration: none;
+  color: #2997ff;
 }
 
 nav {
@@ -28,16 +29,22 @@ nav ul {
   list-style: none;
 }
 
-.shop-div {
-  background-color: #fbfbfd;
+.search-icon {
+  background-size: 15px 88px;
+  width: 15px;
+  height: 44px;
+  background-repeat: no-repeat;
+  background-image: url("https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_search_image__cbllq1gkias2_large.svg");
 }
 
 .shop-online {
   padding: 20px 0;
   text-align: center;
-  width: 610px;
-  margin: auto;
+  background-color: #fbfbfd;
 }
+
+/*Full Width Section Styles*/
+
 .full-width-section {
   width: 100%;
   height: 650px;
@@ -51,7 +58,7 @@ nav ul {
 }
 
 .full-width-section a {
-  color: blue;
+  color: #2997ff;
 }
 
 .full-width-section div {
@@ -63,11 +70,25 @@ nav ul {
 .iphone-13-pro {
   background-image: url("https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_medium.jpg");
 }
+.iphone-13-pro h1 {
+  font-size: 48px;
+}
 .iphone-13 {
   background-image: url("https://www.apple.com/v/home/aj/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_medium.jpg");
 }
+.iphone-13 h1 {
+  font-size: 48px;
+  color: white;
+}
+.iphone-13 h2 {
+  color: #fec2eb;
+}
 .valentine-day {
   background-image: url("https://www.apple.com/v/home/aj/images/heroes/valentines-day-last-chance/hero_vday22__bt5gpd2vjafm_medium.jpg");
+  color: #602d62;
+}
+.valentine-day h1 {
+  font-size: 48px;
 }
 
 /*Multi Styles*/
@@ -109,6 +130,12 @@ nav ul {
   nav ul {
     flex-direction: column;
   }
+  nav li {
+    display: none;
+  }
+  .show-on-small-screen {
+    display: block;
+  }
   .multi {
     flex-direction: column;
   }
@@ -127,7 +154,7 @@ nav ul {
   .valentine-day {
     background-image: url("https://www.apple.com/v/home/aj/images/heroes/valentines-day-last-chance/hero_vday22__bt5gpd2vjafm_small_2x.jpg");
   }
-  
+
   .watch {
     background-image: url("https://www.apple.com/v/home/aj/images/promos/watch-series-7/tile_watch__e9n11b6m6yq2_small_2x.jpg");
   }
