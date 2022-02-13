@@ -3,12 +3,17 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
 }
 
 /* HEADER STYLES */
 
 header {
   background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 a {
   text-decoration: none;
@@ -59,9 +64,13 @@ nav ul {
   padding: 20px 0;
   text-align: center;
   background-color: #fbfbfd;
+  font-size: 14px;
 }
 
 /*Full Width Section Styles*/
+main {
+  margin-top: 39px;
+}
 
 .full-width-section {
   width: 100%;
@@ -77,6 +86,7 @@ nav ul {
 
 .full-width-section a {
   color: #2997ff;
+  font-size: 19px;
 }
 
 .full-width-section div {
@@ -128,9 +138,14 @@ nav ul {
   background-image: url("https://www.apple.com/v/home/aj/images/promos/watch-series-7/tile_watch__e9n11b6m6yq2_medium.jpg");
   text-align: center;
 }
+.watch span:first-child {
+  color: #bf4800;
+  font-size: 12px;
+}
 .shot {
   background-image: url("https://www.apple.com/v/home/aj/images/promos/shot-on-iphone/tile_soip__f0c6lef982em_medium.jpg");
 }
+
 .heart {
   background-image: url("https://www.apple.com/v/home/aj/images/promos/watch-heart-month/promo_watch_heart__dlf8uc5h0kae_medium.jpg");
 }
