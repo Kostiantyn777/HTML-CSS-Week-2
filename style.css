@@ -288,11 +288,32 @@ footer hr {
   .iphone-13-pro {
     background-image: url("https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_small_2x.jpg");
   }
+  .iphone-13-pro h1 {
+    font-size: 32px;
+  }
+  .iphone-13-pro h2 {
+    font-size: 19px;
+    font-weight: 400;
+  }
   .iphone-13 {
     background-image: url("https://www.apple.com/v/home/aj/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_small_2x.jpg");
   }
+  .iphone-13 h1 {
+    font-size: 32px;
+    margin-top: 255px;
+  }
+  .iphone-13 h2 {
+    font-size: 19px;
+  }
   .valentine-day {
     background-image: url("https://www.apple.com/v/home/aj/images/heroes/valentines-day-last-chance/hero_vday22__bt5gpd2vjafm_small_2x.jpg");
+  }
+  .valentine-day h2 {
+    font-size: 19px;
+    font-weight: 500;
+  }
+  .valentine-day h1 {
+    font-size: 32px;
   }
 
   .watch {
